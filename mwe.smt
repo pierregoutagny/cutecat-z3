@@ -7,7 +7,7 @@
                  ( (let ((a!1 (- (to_int (+ (- x!1) (/ 1.0 2.0))))))
                      (ite (>= x!1 0.0) (to_int (+ x!1 (/ 1.0 2.0))) a!1))))
 
-; ROUND comment above and uncomment below to try "smarter" rounding
+; comment other defs and uncomment this one to try "smarter" rounding
 ;(define-funs-rec ( ( !round! ((x!1 Real)) Int))
 ;                 ( ( ite (is_int x!1)
 ;                        (to_int x!1)
@@ -17,6 +17,9 @@
 ;                     )
 ;                 )
 ;)
+
+; comment other defs and uncomment this one to try with round = to_int
+;(define-funs-rec ( ( !round! ((x!1 Real)) Int)) ((to_int x!1)))
 
 (assert (>= a 0))
 (assert (>= c 0))
