@@ -1,8 +1,10 @@
-# Setup
+# Z3 questions
+
+## Setup
 ocaml 4.14.2
 z3 4.13.3 (latest available in opam)
 
-# Soft constraints
+## Soft constraints
 
 In this section, the optimize solver is used.
 
@@ -35,7 +37,7 @@ in this case any order on the soft constraints terminates in 10ms.
 I am wondering what may cause the differences between the different orders I
 have tried on soft constraints, and the different definitions of `round`.
 
-# Effect of time limit
+## Effect of time limit
 
 In this section, the "normal" solver is used (`Z3.Solver`), with incremental
 mode enabled.
@@ -67,7 +69,7 @@ a timeout of 100ms.
 
 If I ever find a way to make this replicable, I will open an issue on Github.
 
-# Effect of solver mode
+## Effect of solver mode
 
 Is it possible that using the `Optimize` solver (in OCaml bindings) instead of
 the `Solver` one makes builing expressions (not adding assertions, just
