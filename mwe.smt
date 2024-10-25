@@ -50,7 +50,8 @@
               (* (- 1) a!1))))
   (not (<= (- 33947) a!2)))))
 
-; SETS OF CONSTRAINTS TO TRY
+
+; LISTS OF CONSTRAINTS TO TRY
 
 ; 1. terminates in 15 s
 ;(assert-soft (= (mod d 100) 0) :weight 1 :id id!5)
