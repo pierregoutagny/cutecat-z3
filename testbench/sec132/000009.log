@@ -1,0 +1,30 @@
+satisfiable
+(:added-eqs                   101
+ :arith-eq-adapter            10
+ :arith-bound-propagations-lp 3
+ :arith-branch                1
+ :arith-diseq                 3
+ :arith-fixed-eqs             7
+ :arith-gcd-calls             1
+ :arith-lower                 22
+ :arith-make-feasible         24
+ :arith-max-columns           32
+ :arith-max-rows              15
+ :arith-patches               1
+ :arith-upper                 16
+ :conflicts                   6
+ :datatype-accessor-ax        14
+ :datatype-constructor-ax     23
+ :datatype-splits             3
+ :decisions                   16
+ :del-clause                  40
+ :final-checks                9
+ :max-memory                  21.27
+ :memory                      21.27
+ :mk-bool-var                 74
+ :mk-clause                   40
+ :num-allocs                  534354
+ :num-checks                  10
+ :propagations                20
+ :recfun-macro-expansion      3
+ :rlimit-count                5099)

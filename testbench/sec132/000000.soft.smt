@@ -1,0 +1,7 @@
+(declare-fun employee_price_in () Int)
+(declare-fun customer_price_in () Int)
+(assert-soft (= (mod customer_price_in 100) 0) :weight 1 :id id!3)
+(assert-soft (= (mod customer_price_in 10000) 0) :weight 1 :id id!4)
+(assert-soft (= (mod employee_price_in 100) 0) :weight 1 :id id!1)
+(assert-soft (= (mod employee_price_in 10000) 0) :weight 1 :id id!2)
+(check-sat)

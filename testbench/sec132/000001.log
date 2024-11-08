@@ -1,0 +1,22 @@
+satisfiable
+(:added-eqs               6
+ :arith-eq-adapter        1
+ :arith-diseq             1
+ :arith-lower             2
+ :arith-make-feasible     4
+ :arith-max-columns       9
+ :arith-max-rows          2
+ :arith-upper             2
+ :datatype-accessor-ax    2
+ :datatype-constructor-ax 1
+ :datatype-splits         1
+ :decisions               2
+ :final-checks            2
+ :max-memory              21.08
+ :memory                  21.08
+ :mk-bool-var             9
+ :mk-clause               4
+ :num-allocs              474920
+ :num-checks              2
+ :propagations            1
+ :rlimit-count            579)

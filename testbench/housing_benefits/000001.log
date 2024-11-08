@@ -1,0 +1,13 @@
+satisfiable
+(:added-eqs           2
+ :arith-lower         1
+ :arith-make-feasible 7
+ :arith-max-columns   9
+ :arith-upper         5
+ :final-checks        2
+ :max-memory          21.27
+ :memory              21.27
+ :mk-bool-var         8
+ :num-allocs          763889
+ :num-checks          2
+ :rlimit-count        2503)
