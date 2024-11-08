@@ -1,0 +1,5 @@
+(assert-soft (= (mod customer_price 100) 0) :weight 1 :id id!3)
+(assert-soft (= (mod customer_price 10000) 0) :weight 1 :id id!4)
+(assert-soft (= (mod employee_price 100) 0) :weight 1 :id id!1)
+(assert-soft (= (mod employee_price 10000) 0) :weight 1 :id id!2)
+(check-sat)
